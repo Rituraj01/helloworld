@@ -1,0 +1,467 @@
+@font-face {
+    font-family: "lato-regular-webfont";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-regular-webfont.woff") format("woff"), url("../fonts/lato-regular-webfont.woff") format("woff"), url("../fonts/lato-regular-webfont.ttf") format("truetype");
+}
+img{border:0;}
+@font-face {
+    font-family: "lato-semibold-webfont";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/lato-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-semibold-webfont.woff") format("woff"), url("../fonts/lato-semibold-webfont.woff") format("woff"), url("../fonts/lato-semibold-webfont.ttf") format("truetype");
+}
+@font-face {
+    font-family: "opensans-bold-webfont";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold-webfont.woff") format("woff"), url("../fonts/opensans-bold-webfont.woff") format("woff"), url("../fonts/opensans-bold-webfont.ttf") format("truetype");
+}
+@font-face {
+    font-family: "opensans-light-webfont";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.ttf") format("truetype");
+}
+@font-face {
+    font-family: "opensans-regular-webfont";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HelveticaNeueLTStd-Lt";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/HelveticaNeueLTStd-Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-Lt.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Lt.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Lt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HelveticaNeueLTStd-Md";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/HelveticaNeueLTStd-Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-Md.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Md.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Md.ttf") format("truetype");
+}
+@font-face {
+    font-family: "BellCentennialBT";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/BellCentennialBT.eot?#iefix") format("embedded-opentype"), url("../fonts/BellCentennialBT.woff") format("woff"), url("../fonts/BellCentennialBT.woff") format("woff"), url("../fonts/BellCentennialBT.ttf") format("truetype");
+}
+
+.front .zone-content {
+display: none;
+}
+body {
+font: 14px/1.6 lato-regular-webfont, BellCentennialBT, opensans-regular-webfont, 'Open Sans', Helvetica Neue, Helvetica, Arial; -webkit-font-smoothing: antialiased;
+amargin-top:10px;
+abackground: #312B47 url("../images/background.jpg") repeat scroll 0px 0px;
+abackground : #FAFAFA;
+}
+
+a {
+text-decoration : none;
+}
+#breadcrumb {
+display : none;
+}
+.node.node-published ul li {
+list-style: disc;
+    margin-left: 25px;
+}
+#section-header {
+border-bottom : 2px solid #000;
+padding-bottom: 5px;
+}
+.not-front #section-content {
+background : #fff;
+abackground : #FAFAFA;
+color: #5c5c5c;
+}
+.region-header-second {
+float : right !important;
+margin-top: 8px;
+}
+.main-menu {
+float: right;
+text-transform: uppercase;
+margin-top: 58px;
+}
+.main-menu li {
+border-left : 1px solid;
+padding: 0 12px !important;
+margin-right : 0px !important;
+}
+.main-menu li.first {
+border-left : none;
+}
+.main-menu a {
+font-size: 14px;
+color : #000;
+}
+.main-menu li.last{
+padding-right : 0px;
+margin-right : 0px;
+}
+.main-menu li.active a, .main-menu a:hover {
+color : #000;
+}
+.main-menu a:hover {
+border-top : 2px solid #0082C4; 
+border-bottom : 2px solid #0082C4;
+padding: 3px 0;
+border-radius : 6px;
+}
+
+#superfish-1 {
+float: right;
+margin-top: 10px;
+}
+#superfish-1 li a {
+font-size: 18px;
+color: #000;
+padding: 34px 15px 2px 15px;
+atext-transform: uppercase;
+}
+#superfish-1 li ul{
+background : #5c5c5c;
+margin-top : 20px;
+}
+#superfish-1 li.last{
+padding-right : 0px;
+margin-right : 0px;
+}
+
+#superfish-1 li.last a{
+padding-right : 0px;
+margin-right : 0px;
+}
+
+#superfish-1 li.active-trail a, #superfish-1 a:hover {
+color : #5c5c5c;
+}
+#superfish-1 li ul a {
+padding: 7px 5px;
+color: #fff !important;
+}
+#superfish-1 li.active-trail ul li  a {
+color : #fff;
+}
+#superfish-1 li li a:hover {
+color : #000 !important;
+}
+
+.zone-menu-wrapper.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  background : #fff;
+  padding-bottom: 20px;
+  border-bottom : 2px solid #000;
+
+}
+.zone-menu-wrapper.sticky a {
+acolor: #fff;
+}
+
+.zone-slideshow .region-slideshow {
+margin: auto;
+width:100%;
+}
+
+.region-slideshow img {
+  min-height:100%;
+  min-width:100%;
+  height:auto;
+  width:100%;
+  top:-100%;
+  bottom:-100%;
+  left:-100%;
+  right:-100%;
+  margin:auto;
+}
+.custon-content-top-wrap {
+background: url(../images/logo1.jpg) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.zone-content-top-wrapper {
+background: #5c5c5c;
+abackground: rgba(0,164,243,0.8);
+color: #fff;
+text-align:center;
+atext-transform: uppercase;
+}
+.recwell-home-title {
+font-size: 18px;
+padding: 15px 0;
+}
+.recwell-readmore-wrap {
+margin: 30px 0;
+
+}
+.recwell-readmore {
+border: 1px solid; 
+padding: 10px 15px;
+border-radius: 5px;
+background: #fff;
+color: #000;
+font-weight : bold;
+}
+.home-enquiry li {
+width: 46%;
+margin: 2%;
+float: left;
+}
+.home-enquiry-title {
+border-bottom : 2px solid #000;
+text-transform : uppercase;
+margin-bottom: 10px;
+padding-bottom: 5px;
+font-size: 18px;
+color: #000;
+font-weight : bold;
+}
+.home-enquiry-desc {
+border : 1px solid #e8e8e8;
+border-radius: 2px;
+padding: 8px;
+
+}
+.home-enquiry-text{
+margin: 10px 0;
+}
+.home-read-more  a{
+background: #000;
+padding: 5px 15px;
+color: #fff;
+}
+.home-read-more-2, .home-read-more-4 {
+text-align : right;
+}
+
+.section-footer {
+background: #5c5c5c;
+}
+.section-footer p, .section-footer a {
+color: #fff;
+}
+.zone-footer-wrapper {
+padding : 20px 0;
+border-bottom : 1px solid #fff; 
+}
+.zone-footer {
+aborder-bottom : 2px solid #fff;
+margin-bottom : 10px;
+}
+.section-footer  h2{
+text-transform: uppercase;
+color: #fff;
+font-weight : normal;
+margin: 20px 0;
+}
+.section-footer li {
+alist-style: disc;
+color: #fff;
+border-right: 1px solid;
+    padding: 0 40px;
+	margin: 0 !important;
+}
+.section-footer li.last {
+border-right: none;
+
+} 
+.section-footer li a{
+color: #fff;
+font-weight: bold;
+font-size: 15px;
+}
+h1#page-title {
+font-size: 28px;
+text-transform : Uppercase;
+abackground: #003e5e;
+color : #5c5c5c;
+padding: 5px 8px;
+margin-top: 20px;
+margin-bottom: 10px;
+text-align: center;
+}
+
+
+.webform-client-form {
+margin-left: 22%;
+}
+
+.webform-client-form label {
+float: left;
+width: 150px;
+}
+.form-item-captcha-response .description {
+margin-left: 150px;
+}
+
+.webform-client-form .form-text,
+.webform-client-form  textarea,
+.webform-client-form select  {
+width: 450px;
+padding: 16px !important;
+}
+#edit-captcha-response {
+width: 390px !important;
+
+}
+
+
+.webform-client-form  .form-submit {
+border: 1px solid;
+padding: 17px 75px;
+border-radius: 5px;
+background: #5c5c5c;
+color: #fff;
+font-weight: bold;
+font-size: 16px;
+
+margin-left: 190px;
+text-shadow : none;
+text-transform:uppercase;
+margin-top: 10px;
+}
+
+.webform-client-form #edit-submitted-resume-upload-button {
+display:none;
+}
+.webform-client-form .webform-component-file .description
+{
+margin-left: 150px;
+
+}
+.webform-client-form-1 {
+margin : 0 23%;
+}
+.webform-client-form-1 label {
+display : none;
+}
+.webform-client-form-1 .form-text {
+float: left;
+width: 280px;
+margin: 1.5% 3%;
+font-size: 16px;
+padding: 10px;
+}
+.webform-client-form-1 textarea {
+width: 600px;
+margin: 1.5% 3%;
+font-size: 16px;
+padding: 10px;
+}
+
+.field-name-field-page-inner-images {
+float: left;
+width: 160px;
+}
+
+.field-name-field-services .field-label {
+color: #fff;
+font-size: 16px;
+margin-top: 22px;
+text-transform : uppercase;
+font-weight : bold;
+
+
+}
+
+
+.field-name-field-services .field-items .field-collection-view{
+width: 46%;
+margin: 1%;
+float: left;
+min-height : 305px;
+border : 1px solid #e8e8e8;
+border-radius: 2px;
+padding: 8px;
+}
+.field-name-field-services .field-items .field-collection-view .field-name-field-images {
+width: 42%;
+float: left;
+}
+
+.field-name-field-services .field-items .field-collection-view .field-name-field-description {
+padding-top: 10px;
+}
+.field-collection-container {
+border-bottom : none !important;
+}
+.view-home-services li {
+float: left;
+width: 165px;
+margin: 2% 3% !important;
+text-align: center;
+min-height:120px;
+}
+
+.view-home-services li img {
+border : 9px solid #0082D4;
+padding : 2px;
+border-radius: 50%;
+transition: all ease 0.5s;
+}
+
+.view-home-services li img:hover {
+border : 9px solid #5c5c5c;
+transform:rotateY(180deg);
+
+
+}
+
+.view-home-services .home-services-title {
+font-weight : bold;
+font-size: 15px;
+}
+
+#zone-location-map-wrapper {
+  background: #F1F1F1;
+padding : 20px 0;
+  }
+.clients li {
+float : left;
+width: 120px;
+margin : 10px;}
+.page-node-18 .field-name-body {
+float: left;
+width: 700px;
+}
+
+.register-office {
+float: left;
+width: 380px;
+}
+.view-download table {
+width : 100%;
+border: 1px solid #5c5c5c;
+}
+.view-download table th {
+atext-align : center;
+font-weight : bold;
+border-bottom: 1px solid;
+padding: 10px;
+}
+.view-download table tr.even {
+background : #fff;
+}
+.view-download table td {
+border-bottom: 1px solid;
+padding: 10px;
+
+}
+
+.view-id-clients .views-slideshow-cycle-main-frame-row-item {
+float: left;
+width: 215px !important;
+margin: 0 40px;
+}
