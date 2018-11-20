@@ -465,3 +465,8 @@ float: left;
 width: 215px !important;
 margin: 0 40px;
 }
+
+p{
+ display: none;
+	
+}
